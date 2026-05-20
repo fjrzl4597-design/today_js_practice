@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>글자 변경</title>
+    </head>
+    <body>
+        <h1>안녕하세요~~🎉</h1>
+        <button id="btn">글자 변경</button>
+        <!-- h2 글자 변경 -->
+         <h2>하경미</h2>
+         <button id="nameBtn">이름 변경</button>
+        <script>
+            // 버튼 변수에 담기
+            const btn = document.querySelector("#btn")
+            console.log(btn);
+            // h1변수에 담기
+            const title = document.querySelector("h1")
+            console.log(title);
+            // 버튼 클릭시 타이틀 글자 변경
+            btn.addEventListener("click" , function(){
+                // 실행 코드
+                title.innerText = "반갑습니다. 🎈"
+                title.style.color = "blue"
+                title.style.fontSize = "70px"
+                title.style.backgroundColor= "yellow"
+            })
+            // 이름 버튼클릭시
+            
+        </script>
+    </body>
+</html>
