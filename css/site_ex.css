@@ -76,13 +76,36 @@ button.dark {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-15%, -50%);
+    transform: translate(-50%, -50%);
     border: 1px solid #222;
+
     width: 300px;
     padding: 30px;
     background-color: yellow;
     display: none;
 }
-.modal.on {
+.modal.on{
     display: block;
+}
+/* 탭메뉴 */
+.content{
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: none;
+}
+.content.content_show{
+    display: block;
+}
+/* 이미지 변경 */
+.gallery img{
+    width: 120px;
+    cursor: pointer;
+
+}
+.big{
+    width: 300px;
+    display: block;
+    margin-bottom: 20px;
 }
